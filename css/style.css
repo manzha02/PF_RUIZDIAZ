@@ -217,8 +217,9 @@ legend {
     width: 290px; } }
 
 @media (max-width: 768px) {
-  .logo img{
-    width: 250px; 
-  margin-top: 10%; }
-  }
+  .logo {
+    width: 250px; } }
 
+@media (max-width: 576px) {
+  .logo {
+    width: 200px; } }
