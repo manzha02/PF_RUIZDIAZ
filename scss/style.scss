@@ -261,6 +261,8 @@ legend{
 
 @media (max-width: 576px){
     .logo{
+        display: flex;
+        justify-content: center;
         align-items: center;
         width: 200px;
     }
