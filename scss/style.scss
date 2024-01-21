@@ -48,7 +48,6 @@ main{
         text-align: right;
         padding: 1%;
         margin-bottom: 5%;
-        margin-left: 40%;
         justify-content:left;
         display: flex;
         font-size: 4em;
@@ -261,6 +260,6 @@ legend{
 @media (max-width: 576px){
     .logo{
         width: 200px;
-        margin-top: 5%;
+        margin-top: 10%;
     }
     }
