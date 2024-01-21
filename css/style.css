@@ -42,7 +42,9 @@ main h2 {
   margin-left: 40%;
   justify-content: left;
   display: flex;
-  font-size: 4em; }
+  font-size: 4em;
+  whith: 100%;
+}
 
 main section {
   text-align: center;
@@ -127,7 +129,9 @@ p {
   padding-top: 5%;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(3, 250px);
-  grid-template-areas: "img1 img1 img2 img2" "img1 img1 img3 img4" "img1 img1 img5 img5";
+  grid-template-areas: "img1 img1 img2 img2"
+ "img1 img1 img3 img4"
+ "img1 img1 img5 img5";
   gap: 3rem;
   justify-content: center; }
 
@@ -202,6 +206,18 @@ input {
 
 legend {
   font-size: 1.5em; }
+
+.nav{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    padding-right: 1%;
+    float: right;
+    width: 100%;
+}
 
 @media (max-width: 1200px) {
   .logo {
