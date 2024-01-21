@@ -264,3 +264,11 @@ legend{
         width: 200px;
     }
 }
+
+
+@media (max-width: 300px){
+    .logo{
+        width: 150px;
+        padding-top: 15%;
+    }
+}
