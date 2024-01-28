@@ -26,6 +26,18 @@ header {
         padding-bottom: 5%;
         
     }
+    h2 {
+        background-color: red;
+        color: white;
+        text-align: right;
+        padding: 1%;
+        margin-bottom: 5%;
+        margin-left: 40%;
+        justify-content:left;
+        display: flex;
+        font-size: 4em;
+      }
+
     nav{
         display: flex;
         justify-content: end;
@@ -40,18 +52,7 @@ header {
 }
     body{
         background-color: black;
-      }
-main{ 
-    h2{
-        background-color: red;
-        color: white;
-        text-align: right;
-        padding: 1%;
-        margin-bottom: 5%;
-        justify-content:left;
-        display: flex;
-        font-size: 4em;
-       
+      
     }
     section{
         text-align: center;
