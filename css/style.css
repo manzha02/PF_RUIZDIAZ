@@ -20,17 +20,15 @@ header h1 {
     padding: 0%;
     line-height: 4.5rem;
     padding-bottom: 5%; } 
+
 header .nav{
-  float: right;
+      justify-content: right;
+      float:center;
       font-size: 1.2em;
       display: flexbox;
-      justify-content: end;
-      align-content: center;
-      padding-right: 1;
       margin: 0;
-      padding: 0;
-      width: 100%;
-      align-items: end;}
+      padding: 0;}
+  
 body {
   background-color: black; }
 h1{
