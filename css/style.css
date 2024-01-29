@@ -20,22 +20,13 @@ header {
     padding: 0%;
     line-height: 4.5rem;
     padding-bottom: 5%; }
-  header nav {
-    display: flex;
-    justify-content: end;
-    align-content: center;
-    font-size: 1.9em;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    float: left; }
-
+    
 body {
   background-color: black; }
 
 h1{
   font-size: 4em;
-}  
+} 
 
 h2 {
   background-color: red;
@@ -234,5 +225,6 @@ legend {
    h2
    { 
     font-size: 2em;
+   
    }
   }
