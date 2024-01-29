@@ -8,9 +8,9 @@ header {
   header .logo {
     margin-top: 5%;
     margin-left: 8%; }
-  header .logo:hover {
+header .logo:hover {
     transform: rotate(350deg); }
-  header h1 {
+header h1 {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -19,15 +19,11 @@ header {
     margin-right: 5%;
     padding: 0%;
     line-height: 4.5rem;
-    padding-bottom: 5%; }
-    
+    padding-bottom: 5%; } 
 body {
   background-color: black; }
-
 h1{
-  font-size: 4em;
-} 
-
+  font-size: 4em;} 
 h2 {
   background-color: red;
   color: white;
@@ -37,9 +33,7 @@ h2 {
   margin-left: 30%;
   justify-content:left;
   display: flex;
-  font-size: 4em;
-}
-
+  font-size: 4em;}
 main section {
   text-align: center;
   color: white;
@@ -48,30 +42,26 @@ main section {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap; }
-
 main div img {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0%;
   font-style: italic;
   color: white;
-  width: 350px;
-  height: 650px;
+  width: 300px;
+  height: 450px;
   border-radius: 20px;
   overflow: hidden; }
-
 main h3 {
   color: #fafafa;
   font-size: 2.7em;
   padding-top: 5%;
   text-align: center; }
-
 main button {
   background-color: white;
   font-size: 30px;
   padding: 15px 100px;
   margin: 2%;
   cursor: pointer; }
-
 main .img-fin {
   background-image: url(../assets/encuentra.jpg);
   background-repeat: no-repeat;
@@ -81,11 +71,9 @@ main .img-fin {
   height: 450px;
   padding: 0;
   margin-top: 10%; }
-
 main h4 {
   font-size: 4rem;
   font-family: Arial, Helvetica, sans-serif; }
-
 .footer {
   background-color: black;
   padding-top: 10%;
@@ -93,29 +81,23 @@ main h4 {
   color: white;
   display: flex;
   justify-content: center; }
-
 h5 {
   font-size: 1em;
   line-height: 3rem; }
-
 h6 {
   font-size: 2em; }
-
 p {
   color: white;
   text-align: center; }
-
 .imagen-blog {
   margin-top: 0;
   padding: 0;
   background-color: black; }
-
 .imagen-blog img {
   margin: 10%;
   margin-top: 2%;
   padding: 0%;
   width: 80%; }
-
 .galeria {
   display: grid;
   width: 90%;
@@ -128,15 +110,12 @@ p {
  "img1 img1 img5 img5";
   gap: 3rem;
   justify-content: center; }
-
 .imagen-galeria {
   width: 100%;
   height: 100%; }
-
 .imagen-galeria img {
   width: 100%;
   height: 100%; }
-
 .img1 {
   grid-area: img1; }
 
@@ -160,7 +139,6 @@ p {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap; }
-
 .iconos {
   width: 400px;
   margin: 0;
@@ -177,27 +155,22 @@ form {
   font-size: 20px;
   color: black;
   background-color: white; }
-
 fieldset {
   width: 70%;
   margin-left: 15%; }
-
 input, textarea {
   width: 100;
   margin-bottom: 20px;
   padding: 7px;
   border-width: 2px;
   box-sizing: border-box; }
-
 textarea {
   height: 100px;
   width: 50%;
   background-color: white; }
-
 input {
   width: 50%;
   background-color: white; }
-
 legend {
   font-size: 1.5em; }
 
@@ -217,6 +190,9 @@ legend {
 @media (max-width: 768px) {
   .logo {
     width: 250px; }
+    header h1{
+      font-size: 4rem;
+    }
      h2
      { 
       font-size: 2.5em;
@@ -232,8 +208,9 @@ legend {
    { 
     font-size: 2em;
    }
-   h1{
-    font-size: 1em;
+   header h1{
+    font-size: 3rem;
+  }
    }
 }
 @media (max-width: 356px) {
