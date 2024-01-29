@@ -222,4 +222,10 @@ legend {
   { 
    font-size: 1.8em;
   }
+  main h3 {
+    font-size: 2em;
+   }
+   main button {
+    font-size: 20px;
+   }
 }
