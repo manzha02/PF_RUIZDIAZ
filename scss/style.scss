@@ -243,14 +243,13 @@ legend{
     .logo{
         width: 290px;
     }
-    }
 }
 @media (max-width: 768px){
     .logo{
         width: 250px;
-    }
-}
 
+}
+}
 
 @media (max-width: 576px){
     .logo{
@@ -258,5 +257,6 @@ legend{
         justify-content: center;
         align-items: center;
         width: 200px;
-    }
+   }
+}
 }
