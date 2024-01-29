@@ -254,6 +254,15 @@ legend {
     grid-area: img5; }
   }
 
+  .imagen-blog img {
+    margin: 10%;
+    margin-top: 2%;
+    padding: 0%;
+    width: 80%;
+    height: 50%; 
+  }
+    
+
 @media (max-width: 356px) {
   h2
   { 
