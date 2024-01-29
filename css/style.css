@@ -6,8 +6,8 @@ header {
   width: 100%;
   height: 100%; }
   header .logo {
-    margin-top: 5%;
-    margin-left: 8%; }
+    margin-top: 10%;
+    margin-left: 2%; }
 header .logo:hover {
     transform: rotate(350deg); }
 header h1 {
@@ -216,7 +216,7 @@ legend {
 @media (max-width: 576px) {
   .logo {
     width: 150px;  
-    padding-top: 25px;
+    padding-top: 40px;
    }  
   header h1{
     font-size: 2.5rem;
