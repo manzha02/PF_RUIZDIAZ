@@ -20,15 +20,18 @@ header h1 {
     padding: 0%;
     line-height: 4.5rem;
     padding-bottom: 5%; } 
+nav{
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  padding-right: 1%;
+  float: right;
+  width: 100%;
+}
 
-header .nav{
-      justify-content: right;
-      float:center;
-      font-size: 1.2em;
-      display: flexbox;
-      margin: 0;
-      padding: 0;}
-  
+
 body {
   background-color: black; }
 h1{
@@ -213,7 +216,6 @@ legend {
   .logo {
     width: 150px;  
     padding-top: 25px;
-    margin-left: 4%;
    }  
   header h1{
     font-size: 2.5rem;
