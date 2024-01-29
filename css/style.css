@@ -20,20 +20,17 @@ header h1 {
     padding: 0%;
     line-height: 4.5rem;
     padding-bottom: 5%; } 
-nav{
-  display: flex;
-  justify-content: end;
-  align-content: center;
-  margin: 0;
-  padding: 0;
-  padding-right: 1%;
-  float: right;
-  width: 100%;
-}
-
-
 body {
   background-color: black; }
+    .nav{
+      display: flex;
+      align-content:center;
+      justify-content: right;
+      float: right;
+      font-size: 1.3em;
+      padding:0;
+      margin: 0;
+  }
 h1{
   font-size: 4em;} 
 h2 {
@@ -194,12 +191,18 @@ legend {
 @media (max-width: 992px) {
   .logo {
     width: 290px; } 
-     h2 { 
-      font-size: 3em;
-     }
-  }
-
+  h2 { 
+      font-size: 3em; }
+    }
 @media (max-width: 768px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    margin: 0;
+    width: 100%;
+    font-size: 1.1em;
   .logo {
     width: 250px; }
     header h1{
@@ -207,10 +210,8 @@ legend {
     }
      h2
      { 
-      font-size: 2.5em;
-     }
-  
-  }
+      font-size: 2.5em;}
+    }
 
 @media (max-width: 576px) {
   .logo {
@@ -285,7 +286,6 @@ legend {
    main button {
     font-size: 20px;
    }
-
    .galeria {
     display: grid;
     width: 90%;
