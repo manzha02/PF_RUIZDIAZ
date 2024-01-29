@@ -166,10 +166,10 @@ input, textarea {
   box-sizing: border-box; }
 textarea {
   height: 100px;
-  width: 50%;
+  width: 95%;
   background-color: white; }
 input {
-  width: 50%;
+  width: 95%;
   background-color: white; }
 legend {
   font-size: 1.5em; }
