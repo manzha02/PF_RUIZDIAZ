@@ -112,9 +112,7 @@ header {
     color: white;
     display: flex;
     justify-content: center;
-
 }
-
 h5{
     font-size: 1em;
     line-height: 3rem;
@@ -122,28 +120,21 @@ h5{
 h6{
     font-size: 2em;
 }
-
 p{
     color: white;
     text-align: center;
-
 }
-
 .imagen-blog{
     margin-top:5%;
     padding: 0;
     background-color: rgb(0, 0, 0);
 }
-
 .imagen-blog img{ 
     margin: 10%;
     margin-top: 2%;
     padding: 0%;   
     width: 70%;
-
 }
-
-
 .galeria{
     display: grid;
     width: 90%;
@@ -158,18 +149,14 @@ p{
     gap: 3rem;
     justify-content: center;
 }
-
 .imagen-galeria{
     width: 100%;
     height: 100%;
 }
-
 .imagen-galeria img{
     width: 100%;
     height: 100%;
 }
-
-
 .img1 {
     grid-area:img1;
 }
@@ -193,15 +180,12 @@ p{
     justify-content:space-evenly;
     align-items: center;
     flex-wrap: wrap;
-
 }
-
 .iconos{
     width: 400px;
     margin: 0; 
     padding-top: 5%;
 }
-
 form{
     display: block;
     align-content: center;
@@ -218,7 +202,6 @@ fieldset{
     width: 70%;
     margin-left: 15%;
 }
-
 input, textarea{
     width: 100;
     margin-bottom: 20px;
@@ -226,7 +209,6 @@ input, textarea{
     border-width: 2px;
     box-sizing: border-box;
 }
-
 textarea{
     height: 100px;
     width: 50%;
@@ -236,7 +218,6 @@ input{
     width: 50%;
     background-color: rgb(255, 255, 255);
 }
-
 legend{
     font-size: 1.5em;
 }

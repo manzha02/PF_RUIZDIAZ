@@ -211,9 +211,8 @@ legend {
      { 
       font-size: 2.5em;}
     }
-
 @media (max-width: 576px) {
-
+  }
   .logo {
     width: 150px;  
     padding-top: 10%;
@@ -227,6 +226,10 @@ legend {
    }
    main h3 {
     font-size: 2em;
+   }
+   .h4{
+    font-size: 1em;
+
    }
    main button {
     font-size: 20px;
@@ -320,5 +323,3 @@ legend {
   .img5 {
     grid-area: img5; }
   }
-
-}
