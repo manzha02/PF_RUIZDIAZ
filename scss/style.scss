@@ -28,6 +28,7 @@ header {
         margin-left: 2%;
         margin-top: 10%;
         width: 300px;
+        height: 500px;
    }
     .logo:hover{
         transform:rotate(350deg);
@@ -229,11 +230,15 @@ legend{
 
 @media (max-width: 1200px) {
   header .logo{
-      width: 280px; } }
-  
+      width: 280px; 
+      height: 480px;
+    }
+}
   @media (max-width: 992px) {
     header .logo{
-      width: 250px; } 
+      width: 250px;
+      height: 450;
+    } 
     h2 { 
         font-size: 3em; }
       }
@@ -245,9 +250,11 @@ legend{
       padding: 2%;
       margin: 0;
       width: 100%;
-      font-size: 1.1em;
-      header .logo{
-      width: 200px; }
+      font-size: 1.1em;}
+    header .logo{
+      width: 200px; 
+      height: 350px;  
+    }
       div img{
         margin-top: 15%;
       header h1{
@@ -375,4 +382,4 @@ legend{
     
     .img5 {
       grid-area: img5; }
-    }}
+    }
