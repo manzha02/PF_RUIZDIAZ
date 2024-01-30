@@ -254,10 +254,10 @@ legend {
     width: 180px;
     height: 320px; }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: normal; }
   h2 {
-    font-size: 1em; }
+    font-size: 1.8em; }
   main h3 {
     font-size: 2em; }
   .h4 {
@@ -265,7 +265,7 @@ legend {
   main button {
     font-size: 20px; }
   div img {
-    width: 350px;
+    width: 340px;
     margin-top: 15%; }
   .galeria {
     display: grid;
@@ -298,13 +298,13 @@ legend {
     width: 80%;
     height: 50%; } }
 
-@media (max-width: 400px) {
+@media (max-width: 350px) {
   header .logo {
     margin-top: 15%; }
   h1 {
-    font-size: 1.3em; }
+    font-size: 1.8em; }
   h2 {
-    font-size: 1.3em; }
+    font-size: 1.8em; }
   main h3 {
     font-size: 2em; }
   main button {
