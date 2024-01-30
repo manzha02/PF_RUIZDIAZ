@@ -63,7 +63,6 @@ main div img {
 main h3 {
   color: #fafafa;
   font-size: 2.7em;
-  padding-top: 2%;
   text-align: center; }
 main button {
   background-color: white;
@@ -99,14 +98,14 @@ p {
   color: white;
   text-align: center; }
 .imagen-blog {
-  margin-top: 0;
+  margin-top: 5%;
   padding: 0;
   background-color: black; }
 .imagen-blog img {
-  margin: 10%;
+  margin: 20%;
   margin-top: 2%;
   padding: 0%;
-  width: 80%; }
+  width: 60%; }
 .galeria {
   display: grid;
   width: 90%;
@@ -214,6 +213,7 @@ legend {
     }
 
 @media (max-width: 576px) {
+
   .logo {
     width: 150px;  
     padding-top: 10%;
@@ -321,3 +321,4 @@ legend {
     grid-area: img5; }
   }
 
+}
