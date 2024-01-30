@@ -72,13 +72,13 @@ header {
     }
     div img{
       font-family: Arial, Helvetica, sans-serif;
-      margin: 0%;
-      font-style: italic;
-      color: white;
-      width: 350px;
-      height: 450px;
-      border-radius: 20px;
-      overflow: hidden;
+    margin: 0%;
+    font-style: italic;
+    color: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
   
     }
     h3{
@@ -247,6 +247,8 @@ legend{
       font-size: 1.1em;
       header .logo{
       width: 200px; }
+      div img{
+        margin-top: 15%;
       header h1{
         font-size: 4rem;
       }
@@ -275,8 +277,9 @@ legend{
      }
      div img{
       width: 350px;
-      margin-top: 10%;
+      margin-top: 15%;
     }
+
      .galeria {
       display: grid;
       width: 90%;
@@ -369,4 +372,4 @@ legend{
     
     .img5 {
       grid-area: img5; }
-    }
+    }}
