@@ -216,12 +216,16 @@ legend {
 @media (max-width: 1200px) {
   header .logo {
     width: 280px;
-    height: 480px; } }
+    height: 480px; }
+  div img {
+    margin-top: 10%; } }
 
 @media (max-width: 992px) {
   header .logo {
     width: 250px;
     height: 450; }
+  div img {
+    margin-top: 10%; }
   h2 {
     font-size: 3em; } }
 
