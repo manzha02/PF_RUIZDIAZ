@@ -250,10 +250,10 @@ legend {
     width: 180px;
     height: 320px; }
     header .logo h1 {
-      font-size: 2em;
+      font-size: 1.9em;
       line-height: normal; }
     header .logo h2 {
-      font-size: 2em; }
+      font-size: 1.9em; }
     header .logo main h3 {
       font-size: 2em; }
     header .logo .h4 {
@@ -294,15 +294,19 @@ legend {
     width: 80%;
     height: 50%; } }
 
+@media (max-width: 456px) {
+  h1 {
+    font-size: 1.8em; }
+  h2 {
+    font-size: 1.8em; } }
+
 @media (max-width: 356px) {
   header .logo {
-    margin-top: 15%;
-    width: 170px;
-    height: 300px; }
+    margin-top: 15%; }
   h1 {
-    font-size: 1.9em; }
+    font-size: 1.5em; }
   h2 {
-    font-size: 1.8em; }
+    font-size: 1.5em; }
   main h3 {
     font-size: 2em; }
   main button {
