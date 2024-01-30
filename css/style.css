@@ -119,14 +119,13 @@ p {
 
 .imagen-blog {
   margin-top: 5%;
-  padding: 0;
   background-color: black; }
 
 .imagen-blog img {
-  margin: 10%;
+  margin-left: 20%;
   margin-top: 2%;
-  padding: 0%;
-  width: 70%; }
+  width: 60%;
+  height: 50%; }
 
 .galeria {
   display: grid;
