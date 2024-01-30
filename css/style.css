@@ -66,9 +66,10 @@ div img {
   margin: 0%;
   font-style: italic;
   color: white;
+  width: 350px;
+  height: 450px;
   border-radius: 20px;
-  overflow: hidden;
-  width: 100%; }
+  overflow: hidden; }
 
 h3 {
   color: #fafafa;
@@ -200,11 +201,11 @@ input, textarea {
 
 textarea {
   height: 100px;
-  width: 50%;
+  width: 90%;
   background-color: white; }
 
 input {
-  width: 50%;
+  width: 90%;
   background-color: white; }
 
 legend {
@@ -212,11 +213,11 @@ legend {
 
 @media (max-width: 1200px) {
   header .logo {
-    width: 250px; } }
+    width: 280px; } }
 
 @media (max-width: 992px) {
   header .logo {
-    width: 200px; }
+    width: 250px; }
   h2 {
     font-size: 3em; } }
 
@@ -230,7 +231,7 @@ legend {
     width: 100%;
     font-size: 1.1em; }
     .nav header .logo {
-      width: 150px; }
+      width: 200px; }
     .nav header h1 {
       font-size: 4rem; }
     .nav h2 {
@@ -246,6 +247,9 @@ legend {
     font-size: 1em; }
   main button {
     font-size: 20px; }
+  div img {
+    width: 350px;
+    margin-top: 10%; }
   .galeria {
     display: grid;
     width: 90%;
@@ -285,6 +289,9 @@ legend {
     font-size: 2em; }
   main button {
     font-size: 20px; }
+  div img {
+    width: 300px;
+    margin-top: 10%; }
   .galeria {
     display: grid;
     width: 90%;
