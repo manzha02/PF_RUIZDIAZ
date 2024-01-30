@@ -255,11 +255,10 @@ legend{
        h2
        { 
         font-size: 2.5em;}
-      }
+      }}
   @media (max-width: 576px) {
-    }
-    header h1{
-      font-size: 2.5rem;
+   h1{
+      font-size: 2em;
       line-height: normal;
     }
      h2{ 
@@ -325,6 +324,9 @@ legend{
       
   
   @media (max-width: 356px) {
+    h1{
+      font-size: 1.5em;
+    }
     h2
     { 
      font-size: 1.8em;
